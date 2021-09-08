@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#09AD97;
+    --dark-gray:#374151;
+    --white:#f5f7fa;
+    --half-white:#F3F4F6;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* container */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--white);
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+hr{
+    margin:2rem 0rem;
+}
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* nav */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .link{
+    color: var(--white);
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .hero-inverted{
+    color: var(--primary-color);
+}
+
+/* section */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--half-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--white);
+    border-bottom-right-radius: 1rem;
+}
+.footer .link{
+    color: var(--white);
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+
+}
